@@ -41,7 +41,7 @@ The Unit tests were kept simple, there is potential to test more functionality. 
 ### Input Validation
 Input Validation was not implemented
 
-### Add Business Logik Layer 
+### Add Business Logic Layer 
 At the moment there is not that much business logic, but it would make sense to add a layer between controller and model to separate the business logic. E.g. this code snipped from DataController.getData() would go into the business logic layer:
 ```java
 //create Filter Critera
