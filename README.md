@@ -55,3 +55,6 @@ dialog.setConsent(true);
 
 ### Add Database Server
 At the moment the data is stored in an in-memory H2 database. This should be improved by changing this database to a dedicated system.
+
+### Use Lombok
+Use Lombok to reduce boilerplate code.
