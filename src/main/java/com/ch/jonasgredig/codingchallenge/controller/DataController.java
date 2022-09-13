@@ -24,12 +24,9 @@ public class DataController {
 
     private int pageSize = 50;
 
-    private EntityManager entityManager;
-
-    public DataController(DialogRepository dialogRepository, CustomerRepository customerRepository, EntityManager entityManager) {
+    public DataController(DialogRepository dialogRepository, CustomerRepository customerRepository) {
         this.dialogRepository = dialogRepository;
         this.customerRepository = customerRepository;
-        this.entityManager = entityManager;
     }
 
     @PostMapping("/data/{customerId}/{dialogId}")
