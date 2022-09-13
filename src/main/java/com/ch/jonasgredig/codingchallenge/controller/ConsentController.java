@@ -24,8 +24,8 @@ public class ConsentController {
 
 
     @PostMapping("/consents/{dialogId}")
-    public ResponseEntity checkConsent(@PathVariable Integer dialogId,
-                                        @RequestBody ConsentInputDTO consentDto) {
+    public ResponseEntity setConsent(@PathVariable Integer dialogId,
+                                     @RequestBody ConsentInputDTO consentDto) {
 
         Dialog exampleDialog = new Dialog();
         exampleDialog.setId(dialogId);
