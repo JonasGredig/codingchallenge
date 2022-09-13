@@ -51,7 +51,7 @@ public class DataController {
     }
 
     @GetMapping("/data/")
-    public ResponseEntity<Iterable<Dialog>> getData(@RequestParam(required = false) String language,
+    public ResponseEntity<List<Dialog>> getData(@RequestParam(required = false) String language,
                                                     @RequestParam(required = false) Integer customerId,
                                                     @RequestParam(required = false, defaultValue = "0") Integer page) {
         try {
