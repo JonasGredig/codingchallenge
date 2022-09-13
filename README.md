@@ -10,10 +10,23 @@ To keep the setup simple an in-memory H2 Database was used. It is build in to th
 
 The schema with the empty tables is created from scratch every time the application starts. The Setup script can be found in the 'resources' folder. (File: data.sql) 
 
+
+Web UI for H2 DB:
+```URL
+http://localhost:8080/h2-console
+Username: jonas
+Password: c0d1ngCh4ll3ng32022!!
+```
+
 ### Build & Run
 The Project is a simple Spring Boot Application. Maven is used to build the project, just use: 
 ```bash
 mvn spring-boot:run
+```
+
+The API should be available under:
+```URL
+http://localhost:8080/
 ```
 
 ### PostMan Collection
