@@ -7,6 +7,11 @@ public class DialogInputDTO {
     public DialogInputDTO() {
     }
 
+    public DialogInputDTO(String text, String language) {
+        this.text = text;
+        this.language = language;
+    }
+
     public String getText() {
         return text;
     }
