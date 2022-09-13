@@ -1,6 +1,6 @@
 package com.ch.jonasgredig.codingchallenge.controller;
 
-import com.ch.jonasgredig.codingchallenge.controller.dto.DialogInputDTO;
+import com.ch.jonasgredig.codingchallenge.dto.DialogInputDTO;
 import com.ch.jonasgredig.codingchallenge.model.Dialog;
 import com.ch.jonasgredig.codingchallenge.model.repository.CustomerRepository;
 import com.ch.jonasgredig.codingchallenge.model.repository.DialogRepository;
@@ -12,7 +12,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import javax.persistence.EntityManager;
 import java.sql.Timestamp;
 import java.util.*;
 

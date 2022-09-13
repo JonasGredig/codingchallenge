@@ -9,8 +9,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.List;
 
 public interface DialogRepository extends JpaRepository<Dialog, Integer> {
-
-
     @Override
     <S extends Dialog> S save(S entity);
 

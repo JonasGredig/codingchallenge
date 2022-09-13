@@ -1,4 +1,4 @@
-package com.ch.jonasgredig.codingchallenge.model;
+package com.ch.jonasgredig.codingchallenge;
 
 public class SupportedLanguages {
     public static final String DE = "DE";

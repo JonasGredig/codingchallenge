@@ -1,6 +1,6 @@
 package com.ch.jonasgredig.codingchallenge.controller;
 
-import com.ch.jonasgredig.codingchallenge.controller.dto.ConsentInputDTO;
+import com.ch.jonasgredig.codingchallenge.dto.ConsentInputDTO;
 import com.ch.jonasgredig.codingchallenge.model.Dialog;
 import com.ch.jonasgredig.codingchallenge.model.repository.DialogRepository;
 import org.springframework.data.domain.Example;

@@ -1,4 +1,4 @@
-package com.ch.jonasgredig.codingchallenge.controller.dto;
+package com.ch.jonasgredig.codingchallenge.dto;
 
 public class DialogInputDTO {
     private String text;

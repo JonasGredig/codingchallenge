@@ -1,13 +1,11 @@
 package com.ch.jonasgredig.codingchallenge;
 
 import com.ch.jonasgredig.codingchallenge.controller.ConsentController;
-import com.ch.jonasgredig.codingchallenge.controller.dto.ConsentInputDTO;
+import com.ch.jonasgredig.codingchallenge.dto.ConsentInputDTO;
 import com.ch.jonasgredig.codingchallenge.model.Customer;
 import com.ch.jonasgredig.codingchallenge.model.Dialog;
-import com.ch.jonasgredig.codingchallenge.model.SupportedLanguages;
 import com.ch.jonasgredig.codingchallenge.model.repository.CustomerRepository;
 import com.ch.jonasgredig.codingchallenge.model.repository.DialogRepository;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
