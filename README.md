@@ -21,7 +21,7 @@ To make local testing of the endpoints easier I created  a Postman Collection wi
 
 ## Potential Improvements
 ### Unit Testing
-The Unit tests were kept simple, there is potential to test more functionality. E.g. testing for pagination and optional filter critera in: 
+The Unit tests were kept simple, there is potential to test more functionality. E.g. testing for pagination and optional filter criteria in: 
 
 ```GET /data/(?language=${language}|customerId=${customerId})```
 
@@ -29,7 +29,7 @@ The Unit tests were kept simple, there is potential to test more functionality. 
 Input Validation was not implemented
 
 ### Add Business Logik Layer 
-At the moment there is not that much business logic, but it would make sense to add a layer between controller and model to seperate the business logic. E.g. this code snipped from DataController.getData() would go into the business logik layer:
+At the moment there is not that much business logic, but it would make sense to add a layer between controller and model to separate the business logic. E.g. this code snipped from DataController.getData() would go into the business logic layer:
 ```java
 //create Filter Critera
 Dialog dialog = new Dialog();
