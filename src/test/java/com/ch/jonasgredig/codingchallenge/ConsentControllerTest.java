@@ -29,7 +29,7 @@ public class ConsentControllerTest {
     private int technicalDialogId;
 
     @BeforeEach
-    void beforeAll() {
+    void beforeEach() {
         this.consentController = new ConsentController(dialogRepository);
         Customer customer = new Customer("Roger", "Federer");
         customerRepository.save(customer);
@@ -52,8 +52,8 @@ public class ConsentControllerTest {
 
     @Test
     void dialogWasSetSad() {
-        int NotExistantID = 299792458;
-        assert(dialogRepository.findById(NotExistantID).isPresent() == false);
+        int notExistantID = 299792458;
+        assert(dialogRepository.findById(notExistantID).isPresent() == false);
     }
 
     @Test
